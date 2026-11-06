@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Css بحث عنلغه التصميم</title>
+</head>
+<body>
+<h1> بياناتي الشخصيه </h1>
+<p> الاسم: زهراء خالد ذكي عبدالرحمن 
+<br />
+  السكشن: 66
+  <br />
+  الرقم الجامعي:2503629
+  <br />
+  اسم الماده: تطبيقات الانترنت د/ مها زغلول
+  <br />
+  بحث عن Css 
+  <hr />
+  <h3> المقدمه/</h3>
+   css التي اختصارها Cascading style sheets تعد لغه
+  هياالعصب الاساسي لتصميم وتنسيق صفحات الويب فهي المسؤوله عن تحويل الهيكل البرمجي HTML الي واجهات جميله ومريحه للمستخدم من خلال التحكم ف الالوان الخطوط الابعاد و التخطيطات المختلفه مثل Flexbox و Grid تمنحك CSS القدره ع بناء مواقع متجاوبه مع كافه الشاشات والاجهزه
+ <br />
+<table border="1">
+  <tr>
+<th>  المحدد</th>
+<th> الوصف </th>
+<th> مثال </th>
+  </tr>
+  <tr>
+  <td>Element Selector <br /> <hr />Class Selector 
+  <br /><hr /> ID Selector <br /><hr />Universal Selector <br /> <hr />Descendant Selector <br /><hr />Pseudo-class
+  </td>  
+    <td>
+   استهداف العنصر مباشره بواسطه اسمه <br /><hr />    استهداف العنصر التي تحمل فئه معينه يبدا ب <br /><hr /> استهداف عنصر فريد يحمل معرف معين يبدا ب <br /> <hr /> استهداف جميع العناصر ف الصفحه 
+      <br /><hr />استهداف العناصر الموجوده داخل عنصر اخر <br /><hr />استهداف العناصر ف حاله معينه
+       </td>
+       <td>P { color : blue ; } <hr /> . Btn {background : red ; } <hr />
+         #header {height :80PX ;} <hr />{ marging : 0 ; padding : 0 ; } <hr /> div p { color : green ; } <hr /> a : hover { text-decoration : underline ; }
+       </td>
+</table> 
+ <h1> (Box model )نموذج الصندوق</h1>
+ <ol>
+  <li>المحتوي الفعلي ( نص . صور): content </li> 
+   <li>المسافه الداخليه بين المحتوي والحدود : padding</li>
+   <li>هو الاطار المحيط بال : BORDER</li>
+   <li>المسافه الخارجيه بين العنصر والعناصر الاخري المحيطه به :Margin
+
+Box {
+;Width: 300px
+;Padding: 20px
+;Border:2px solid#333;Margin : 15px auto
+/_ يجعل الحجم يشمل ال padding وال Border_/
+{ box-sizing: border-box ;}</li>
+ </ol> 
+ <h3>التخطيط المرن (Flex box)</h3>
+ نظام تخطيط أحادي الاتجاه ( افقي او عمودي ) لتوزيع العناصر بسهوله
+
+Flex-container { display : flex; flex-direction:row /_ او column _/
+justify-content: space-between; /_ محاذاة أفقية : center, flex-start, space-around _/
+align-items: center; /_ محاذاة عمودية _/
+gap: 10px ;المسافة بين العناصر _/ _/
+}
+<h3> شبكه التخطيط (CSS Grid)</h3>
+ Grid-container { display : grid;
+grid-template-columns: repeat(3, 1fr); /_ 3 أعمدة متساوية */
+grid-gap: 20px;}نظام تخطيط ثنائي الاتجاه (اعمده و صفوف)
+  <h5> The end
+
+تعلم ال CSS والتمكن منهو يعتمد بشكل اساسي ع الممارسه والتجربه المستمره هذا شيت مبسط لكي يكون مرجعا سريعا لأهم القواعد والخصائص التي سنحتاجها ف رحله تعلم وتطويل الواجهات ; مع الوقت والطبيقات العملي سوف يكون هذه الخصائص جزءا طبيعيا من أسلوب كتابتنا للكود ...
+</h5>
+</p>  
+<hr />
+<img src="Css.png" alt=" Error" />
+</body>
+</html>
